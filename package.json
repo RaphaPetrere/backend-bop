@@ -1,0 +1,33 @@
+{
+  "name": "backend-bop",
+  "version": "1.0.0",
+  "description": "Backend for the application that stores your work time",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaphaPetrere/backend-bop.git"
+  },
+  "keywords": [
+    "nodejs",
+    "backend"
+  ],
+  "author": "Raphael Cardoso Petrére",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaphaPetrere/backend-bop/issues"
+  },
+  "homepage": "https://github.com/RaphaPetrere/backend-bop#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.95.10",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
